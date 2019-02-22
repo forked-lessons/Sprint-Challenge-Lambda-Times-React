@@ -199,7 +199,7 @@ body {
   letter-spacing: 1px;
   font-weight: bold;
 }
-.tabs .topics .tab {
+/* .tab {
   display: flex;
   justify-content: none;
   align-items: center;
@@ -212,11 +212,11 @@ body {
   letter-spacing: 2px;
   cursor: pointer;
   font-weight: bold;
-}
-.tabs .topics .tab:hover {
+} */
+/* .tabs .topics .tab:hover {
   text-decoration: underline;
-}
-.tabs .topics .active-tab {
+} */
+.active-tab {
   background-color: #fff;
   color: #333;
   border: 2px solid #333;
