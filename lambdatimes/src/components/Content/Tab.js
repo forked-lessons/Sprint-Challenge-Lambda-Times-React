@@ -18,11 +18,11 @@ const Tab = props => {
     </div>
   );
 };
-Tab.propTypes = {
-  tab: propTypes.string,
-  selectedTab: propTypes.string,
-  selectTabHandler: propTypes.function
-};
+// Tab.propTypes = {
+//   tab: propTypes.string,
+//   selectedTab: propTypes.string,
+//   selectTabHandler: propTypes.function
+// };
 // Make sure you include PropTypes on your props.
 
 export default Tab;

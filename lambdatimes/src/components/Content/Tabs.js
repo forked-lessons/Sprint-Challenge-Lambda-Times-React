@@ -6,7 +6,7 @@ const Tabs = props => {
     <div className="tabs">
       <div className="topics">
         <span className="title">TRENDING TOPICS:</span>
-        {props.tab.map(tab => (
+        {props.tabs.map(tab => (
           <Tab
             tab={tab}
             selectedTab={props.selected}
@@ -19,10 +19,10 @@ const Tabs = props => {
     </div>
   );
 };
-Tabs.propTypes = {
-  tabs: Proptypes.arrayOf(Proptypes.string),
-  selectedTab: Proptypes.string,
-  selectTabHandler: Proptypes.function
-};
+// Tabs.propTypes = {
+//   tabs: Proptypes.arrayOf(Proptypes.string),
+//   selectedTab: Proptypes.string,
+//   selectTabHandler: Proptypes.function
+// };
 // Make sure to use PropTypes to validate your types!
 export default Tabs;
